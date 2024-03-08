@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Dolgozat",
+    "dateExported": "2024-03-08T10:29:46.237Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a412f20e-8f43-41ee-bfca-d73034e13f07",
+            "colId": "45ae9cbb-5253-4062-b126-6a2e8d120d87",
+            "containerId": "",
+            "name": "http://localhost:3000/clients/",
+            "url": "http://localhost:3000/clients/",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-03-08T10:28:22.040Z",
+            "modified": "2024-03-08T10:28:22.040Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "e87d9905-d891-41af-abed-0d1781a5b759",
+            "colId": "45ae9cbb-5253-4062-b126-6a2e8d120d87",
+            "containerId": "",
+            "name": "http://localhost:3000/clients/2",
+            "url": "http://localhost:3000/clients/1",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-03-08T10:28:31.261Z",
+            "modified": "2024-03-08T10:28:31.261Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "83e05c36-0b2b-4a1b-9133-664775d04384",
+            "colId": "45ae9cbb-5253-4062-b126-6a2e8d120d87",
+            "containerId": "",
+            "name": "http://localhost:3000/clients/3",
+            "url": "http://localhost:3000/clients/3",
+            "method": "PATCH",
+            "sortNum": 40000,
+            "created": "2024-03-08T10:29:02.387Z",
+            "modified": "2024-03-08T10:29:02.387Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"hasCable\": false\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "90b1ea7c-40a2-4342-a299-271508d06766",
+            "colId": "45ae9cbb-5253-4062-b126-6a2e8d120d87",
+            "containerId": "",
+            "name": "http://localhost:3000/clients/3",
+            "url": "http://localhost:3000/clients/3",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-03-08T10:29:09.836Z",
+            "modified": "2024-03-08T10:29:09.836Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9f27bc3a-f154-4745-a28a-e6f3a0010040",
+            "colId": "45ae9cbb-5253-4062-b126-6a2e8d120d87",
+            "containerId": "",
+            "name": "http://localhost:3000/client/",
+            "url": "http://localhost:3000/clients/NewClient",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-03-08T10:29:19.865Z",
+            "modified": "2024-03-08T10:29:19.865Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Dákó Dávid\",\n  \"address\": \"Kifutó utca 14, Kistarcsa\",\n  \"dataLimit\": 900\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
